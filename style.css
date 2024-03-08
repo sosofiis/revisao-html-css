@@ -107,7 +107,7 @@ header input{
 
 main{
     grid-column: 2/3;
-    grid-row:    2/3;
+    grid-row:    2/2;
 
     display: grid;
     grid-template-columns: 70% 30%;
@@ -150,6 +150,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* border: 1px solid black; */
 }
 
 .main-container-segundo-div{
@@ -158,7 +159,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     width: 54vw;
-    height: 45vh;
+    height: 35vh;
 }
 
 .div-da-div{
@@ -233,4 +234,23 @@ button{
     color: var(--branca);
     border-radius: 30px;
     font-weight: 600;
+}
+
+.main-container-quarto{
+    grid-column: 2/2;
+    grid-row: 2/2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-container-quarto-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container-quarto-div h3{
+    display: flex;
 }
